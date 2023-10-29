@@ -9,6 +9,7 @@
   "author": "Oleksandra Serkes",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/ui": "^5.0.24",
     "browser-sync": "^2.29.3",
     "del": "^6.1.1",
     "gulp": "^4.0.0",
