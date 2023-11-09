@@ -25,6 +25,7 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
-    "gquery": "^0.1.0"
+    "gquery": "^0.1.0",
+    "ion-rangeslider": "^2.3.1"
   }
 }
