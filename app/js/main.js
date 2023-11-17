@@ -29,7 +29,7 @@ $(function () {
     $('.product-item').removeClass('product-item--list');
   });
 
-  $('.select-style').styler();
+  $('.select-style, .product-one__item-num').styler();
 
   $('.filter-price__input').ionRangeSlider({
     type: 'double',
