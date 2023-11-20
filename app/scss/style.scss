@@ -698,30 +698,8 @@ footer{
     &__item-box{
         padding: 30px 40px;
     }
-    &__item-info{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 20px;
-    }
-    &__item-author,
-    &__item-data{
-        padding-left: 30px;
-        position: relative;
-        &::before{
-            content: "";
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            left: 0;
-            top: 4px;
-        }
-    }
-    &__item-author::before{
-            background-image: url(../images/icons/user-grey.png);
-    }
-    &__item-data::before{
-            background-image: url(../images/icons/clock.png);
-    }
+    
+    
     &__item-title{
         color: $title;
         @extend %roboto-400;
@@ -740,6 +718,32 @@ footer{
         position: absolute;
         top: 7px;
         right: -14px;
+    }
+}
+
+.blog-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    &__author,
+    &__data{
+        padding-left: 30px;
+            position: relative;
+        
+            &::before {
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                left: 0;
+                top: 4px;
+            }
+    }
+    &__author::before {
+        background-image: url(../images/icons/user-grey.png);
+    }
+    &__data::before {
+        background-image: url(../images/icons/clock.png);
     }
 }
 
@@ -1532,6 +1536,21 @@ footer{
         .product-item__title{
             padding: 5px 0;
         }
+    }
+}
+
+.blog-page{
+    padding: 120px 0;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content{
+        width: 770px;
+        margin-right: 30px;
+    }
+    &__aside{
+        width: 370px;
     }
 }
 
